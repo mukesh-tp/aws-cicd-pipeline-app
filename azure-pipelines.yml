@@ -10,7 +10,7 @@ pool:
 steps:
   - task: NodeTool@0
     inputs:
-      versionSpec: '14.x' # or your preferred Node.js version
+      versionSpec: '20' # or your preferred Node.js version
   - script: |
       npm install
       npm test
